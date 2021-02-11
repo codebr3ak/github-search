@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { GitsearchComponent } from './gitsearch/gitsearch.component';
 import { ProfileComponent } from './profile/profile.component';
 import { FooterComponent } from './footer/footer.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FooterComponent } from './footer/footer.component';
     HomeComponent,
     GitsearchComponent,
     ProfileComponent,
-    FooterComponent
+    FooterComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
