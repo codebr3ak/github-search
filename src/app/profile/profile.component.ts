@@ -14,7 +14,7 @@ export class ProfileComponent implements OnInit {
   constructor(private http: HttpClient, private _githubService: GithubService) { }
 
   ngOnInit() {
-    this.http.get(" " + " ").subscribe(data => {
+    this.http.get("https://api.github.com/users/codebr3ak/repos?access_token=" + "535266855deafa4bf251c7086ad7d94a891ec0f2").subscribe(data => {
       this.user = data;
       console.log(data);
       console.log("stiletos on mastard")

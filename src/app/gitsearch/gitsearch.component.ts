@@ -10,7 +10,7 @@ import { GithubService } from '../github.service';
 export class GitsearchComponent implements OnInit {
   user: any;
   repos: any
-  username: string;
+  username: any;
 
   constructor(private http: HttpClient, private _githubService: GithubService) { }
 
