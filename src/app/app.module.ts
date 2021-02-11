@@ -8,6 +8,7 @@ import { FormComponent } from './form/form.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { GitsearchComponent } from './gitsearch/gitsearch.component';
+import { ProfileComponent } from './profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { GitsearchComponent } from './gitsearch/gitsearch.component';
     FormComponent,
     HeaderComponent,
     HomeComponent,
-    GitsearchComponent
+    GitsearchComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
