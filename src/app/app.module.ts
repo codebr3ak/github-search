@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { LandingComponent } from './landing/landing.component';
 import { FormComponent } from './form/form.component';
 import { HeaderComponent } from './header/header.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingComponent,
     FormComponent,
-    HeaderComponent
+    HeaderComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
